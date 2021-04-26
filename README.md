@@ -1,45 +1,46 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Meditate with Dom
 
-Welcome domsq,
+My website is designed to be a gentle introduction to mindfulness and meditation for those who may be unfamiliar with the concepts. It will include some easy to understand techniques to get you started and also explain some of the benefits to performing mindfulness and meditation exercises. I will also go briefly into the difference between guided and unguided meditation and how mindfulness and meditation differ, despite often being mentioned together as if they were perhaps one in the same. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+## UX
 
-## Gitpod Reminders
+As noted in my introduction, I'm aiming my website at users who are perhaps new to the concepts of mindfulness and meditation and who are looking for advice on what they are, techniques to try and some of the known benefits to performing mindfulness and meditation exercises. I will also provide some links to further reading and suggested apps. User stories as follows:
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### New Users
 
-`python3 -m http.server`
+- As a user, I'm looking to find out more about the concepts of mindfulness and meditation.
+- As a user, I'm wanting to read about some mindfulness and meditation techniques that I can try.
+- As a user, I would like to find out more about some of the benefits to performing mindfulness and meditation exercises. 
+- As a user, I'd like to discover whether mindfulness and meditation can help with reducing stress and anxiety.
 
-A blue button should appear to click: _Make Public_,
+### Returning Users
 
-Another blue button should appear to click: _Open Browser_.
+### Frequent Users
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Features
 
-A blue button should appear to click: _Make Public_,
+### Existing Features
 
-Another blue button should appear to click: _Open Browser_.
+### Features Left to Implement
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Technologies Used
 
-## Updates Since The Instructional Video
+## Testing
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+## Deployment
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## Credits 
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### Content
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+I made use of the following websites for research:
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+https://www.headspace.com/meditation/techniques <br>
+https://chopra.com/articles/explaining-the-difference-between-mindfulness-meditation <br>
+https://www.lifehack.org/763013/types-of-meditation-techniques <br>
+https://www.healthline.com/health/mental-health/types-of-meditation#mindfulness-meditation <br>
+https://www.medicalnewstoday.com/articles/320392#types-of-meditation
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Media
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
----
-
-Happy coding!
+### Acknowledgements
