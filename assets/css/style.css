@@ -19,7 +19,7 @@ h1, h2, h3, #nav-links {
 /*  Position and style header elements */
 
 #main-heading {
-    margin: 30px 60px;    
+    padding: 30px;  
     font-size: 80%;
     text-decoration: none;
 }
@@ -29,11 +29,15 @@ h1, h2, h3, #nav-links {
 }
 
 #nav-links {
-    margin: 30px 60px;
+    padding: 30px;
     position: absolute;
     right: 0px;
     top: 12.5px;
     text-decoration: none;
+}
+
+.main-color {
+    background-color: #ef6c00;
 }
 
 
