@@ -12,6 +12,30 @@ body {
     font-family: Montserrat, sans-serif;
 }
 
-h1, h2, h3 {
+h1, h2, h3, #nav-links {
     font-family: Hind, sans-serif;
 }
+
+/*  Position and style header elements */
+
+#main-heading {
+    margin: 30px 60px;    
+    font-size: 80%;
+    text-decoration: none;
+}
+
+#main-heading a, #nav-links a {
+    text-decoration: none;
+}
+
+#nav-links {
+    margin: 30px 60px;
+    position: absolute;
+    right: 0px;
+    top: 12.5px;
+    text-decoration: none;
+}
+
+
+
+
