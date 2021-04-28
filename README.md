@@ -1,4 +1,4 @@
-# Meditate with Dom
+# Meditation Newbie
 
 My website is designed to be a gentle introduction to mindfulness and meditation for those who may be unfamiliar with the concepts. It will include some easy to understand techniques to get you started and also explain some of the benefits to performing mindfulness and meditation exercises. I will also go briefly into the difference between guided and unguided meditation and how mindfulness and meditation differ, despite often being mentioned together as if they were perhaps one in the same. 
 
