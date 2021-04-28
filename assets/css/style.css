@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind&family=Montserrat&display=swap');
+
+/* set initial values for border, padding, margin */
+
+* {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: Hind, sans-serif;
+}
