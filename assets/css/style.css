@@ -26,6 +26,7 @@ h1, h2, h3, #nav-links {
 
 #main-heading a, #nav-links a {
     text-decoration: none;
+    color: whitesmoke;
 }
 
 #nav-links {
@@ -37,7 +38,7 @@ h1, h2, h3, #nav-links {
 }
 
 .main-color {
-    background-color: #ef6c00;
+    background-color: #875043;
 }
 
 
