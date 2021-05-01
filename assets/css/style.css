@@ -42,13 +42,13 @@ h1, h2, h3, #nav-links {
 }
 
 .main-color {
-    background-color: #875043;
+    background-color: #57261c;
 }
 
 /* Set background image on homepage */
 
 #home-image {
-    background: #43876c url(../images/marco-de-winter-unsplash-v2.jpeg) center center no-repeat;
+    background: #0f5a41 url(../images/marco-de-winter-unsplash-v2.jpeg) center center no-repeat;
     height: 1200px;
 }
 
@@ -59,7 +59,7 @@ h1, h2, h3, #nav-links {
     color: whitesmoke;
     width: 50%;
     border: 1px solid none;
-    background: #43876c;
+    background: #0f5a41;
     position: relative;
     left: 20%;
     top: 10%;
@@ -68,6 +68,6 @@ h1, h2, h3, #nav-links {
 }
 
 #home-intro {
-    background: rgba(67, 135, 108, 0.8);
+    background: rgba(15, 90, 65, 0.8);
 }
 
