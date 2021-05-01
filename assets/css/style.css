@@ -29,6 +29,10 @@ h1, h2, h3, #nav-links {
     color: whitesmoke;
 }
 
+#nav-links a {
+    padding: 3px;
+}
+
 #nav-links {
     padding: 30px;
     position: absolute;
