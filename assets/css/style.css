@@ -52,4 +52,22 @@ h1, h2, h3, #nav-links {
     height: 1200px;
 }
 
+/* Style intro message  */
+
+.intro-message {
+    font-size: smaller;
+    color: whitesmoke;
+    width: 50%;
+    border: 1px solid none;
+    background: #43876c;
+    position: relative;
+    left: 20%;
+    top: 10%;
+    padding: 30px;
+    border-radius: 4px;
+}
+
+#home-intro {
+    background: rgba(67, 135, 108, 0.8);
+}
 
