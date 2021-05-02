@@ -43,6 +43,10 @@ a {
     background-color: #57261c;
 }
 
+#main-heading a:hover, #nav-links a:hover {
+    color:goldenrod;
+}
+
 /* Set background image on homepage */
 
 #home-image {
