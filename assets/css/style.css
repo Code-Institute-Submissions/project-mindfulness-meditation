@@ -20,7 +20,8 @@ h1, h2, h3, #nav-links, #enter-button {
 
 #main-heading {
     padding: 30px;  
-    font-size: 80%;    
+    font-size: 80%;
+    width: fit-content;    
 }
 
 a {
@@ -50,8 +51,8 @@ a {
 /* Set background image on homepage */
 
 #home-image {
-    background: #0f5a41 url(../images/garden-path-marco-de-winter-unsplash-v2.jpeg) center center no-repeat;
-    height: 1200px;
+    background: #0f5a41 url(../images/garden-path-marco-de-winter-unsplash-v5.jpeg) center center no-repeat;
+    height: 1125px;
 }
 
 /* Style intro message  */
