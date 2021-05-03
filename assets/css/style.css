@@ -12,7 +12,7 @@ body {
     font-family: Montserrat, sans-serif;
 }
 
-h1, h2, h3, #nav-links, #enter-button {
+h1, h2, h3, #nav-links, #enter-button, #copyright-notice {
     font-family: Hind, sans-serif;
 }
 
@@ -64,7 +64,7 @@ a {
     border: 1px solid none;
     background: #0f5a41;
     position: relative;
-    left: 20%;
+    margin: 0 auto;
     top: 10%;
     padding: 30px;
     border-radius: 4px;
@@ -80,7 +80,7 @@ a {
     width: 60px;
     position: relative;
     top: 15%;
-    left: 45%;
+    margin: 0 auto;
     border: 1px solid none;
     border-radius: 4px;
     padding: 5px;
@@ -104,5 +104,29 @@ audio {
 /* Style footer */
 
 footer {
-    height: 120px;
+    height: 100px;
+}
+
+#footer-links {
+    position: relative;
+    top: 10%;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+#footer-links a {
+    font-size: x-large;
+    padding: 10px;    
+}
+
+#footer-links a:hover {
+    color: goldenrod;
+}
+
+#copyright-notice {
+    color: whitesmoke;
+    margin: 0 auto; 
+    width: fit-content;
+    position: relative;
+    top: 30%; 
 }
