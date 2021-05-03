@@ -85,5 +85,19 @@ a {
     border-radius: 4px;
     padding: 5px;
     text-align: center;
+    background: rgba(87, 38, 28, 0.8);
+}
+
+#enter-button a:hover {
+    color: goldenrod;
+}
+
+/* Position audio element */
+
+audio {
+    position: relative;
+    bottom: -45%;
+    float: right;
+    margin-right: 15px;    
 }
 
