@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind&family=Montserrat&display=swap');
 
-/* set initial values for border, padding, margin, taken from Love Running walkthrough project */
+/* Set initial values for border, padding, margin, taken from Love Running walkthrough project */
 
 * {
     border: none;
@@ -37,7 +37,8 @@ a {
     padding: 30px;
     position: absolute;
     right: 0px;
-    top: 12.5px;    
+    top: 12.5px;   
+    width: fit-content; 
 }
 
 .main-color {
@@ -46,6 +47,11 @@ a {
 
 #main-heading a:hover, #nav-links a:hover {
     color:goldenrod;
+}
+
+/* Technique to highlight active page in nav links, taken from Love Running walkthrough project */
+.active-page {
+    border-top: 2px solid goldenrod;
 }
 
 /* Set background image on homepage */
@@ -129,4 +135,21 @@ footer {
     width: fit-content;
     position: relative;
     top: 30%; 
+}
+
+/* Media queries for responsiveness */
+
+/* For screen sizes 600px and down */
+
+@media screen and (max-width: 600px) {
+    #nav-links {
+        position: relative;
+        margin: 0 auto;
+        padding: 15px;
+    }
+
+    #main-heading {
+        margin: 0 auto;
+        padding: 0px;
+    }
 }
