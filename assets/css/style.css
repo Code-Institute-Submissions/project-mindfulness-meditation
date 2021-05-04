@@ -163,6 +163,17 @@ footer {
     text-align: center;    
 }
 
+.technique-block {
+    width: 75%;
+    margin: 10px auto;
+    padding: 30px;
+    border: 1px solid none;
+    background: #0f5a41;
+    border-radius: 4px;
+    color: whitesmoke;
+    font-size: smaller;
+}
+
 /* Media queries for responsiveness */
 
 /* For screen sizes 600px and down */
