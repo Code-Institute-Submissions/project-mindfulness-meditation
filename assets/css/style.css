@@ -68,17 +68,17 @@ a {
     color: whitesmoke;
     width: 75%;
     border: 1px solid none;
-    background: #0f5a41;
-    position: relative;
-    top: 15px;
-    margin: 0 auto;
+    background: #0f5a41;    
+    margin: 15px auto;
     padding: 30px;
     border-radius: 4px;
 }
 
 #home-intro {
-    width: 50%;       
+    width: 50%;  
+    position: relative;     
     top: 10%;
+    margin: 0 auto;
     background: rgba(15, 90, 65, 0.8);
 }
 
@@ -141,6 +141,26 @@ footer {
 
 .light-background {
     background: #b97d6e;
+}
+
+/* Technique to horizontally center inline-block, taken from https://css-tricks.com/centering-css-complete-guide/#horizontal-multiple-block */
+
+#info-block div {
+    display: inline-block;
+    width: 275px;
+    height: 150px;
+    overflow-x: hidden;    
+    background: #0f5a41;
+    color: whitesmoke;
+    font-size: smaller;
+    margin: 10px;
+    border: 1px solid none;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+#info-block {
+    text-align: center;    
 }
 
 /* Media queries for responsiveness */
