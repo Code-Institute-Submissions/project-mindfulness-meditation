@@ -139,6 +139,10 @@ footer {
     top: 30%; 
 }
 
+.light-background {
+    background: #b97d6e;
+}
+
 /* Media queries for responsiveness */
 
 /* For screen sizes 600px and down */
