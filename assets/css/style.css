@@ -66,17 +66,19 @@ a {
 .intro-message {
     font-size: smaller;
     color: whitesmoke;
-    width: 50%;
+    width: 75%;
     border: 1px solid none;
     background: #0f5a41;
     position: relative;
+    top: 15px;
     margin: 0 auto;
-    top: 10%;
     padding: 30px;
     border-radius: 4px;
 }
 
 #home-intro {
+    width: 50%;       
+    top: 10%;
     background: rgba(15, 90, 65, 0.8);
 }
 
