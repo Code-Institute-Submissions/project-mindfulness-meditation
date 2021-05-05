@@ -25,6 +25,11 @@ As noted in my introduction, I'm aiming my website at users who are perhaps new 
 
 ## Technologies Used
 
+HTML <br>
+CSS <br>
+Font Awesome <br>
+Google Fonts
+
 ## Testing
 
 ## Deployment
@@ -40,7 +45,23 @@ https://chopra.com/articles/explaining-the-difference-between-mindfulness-medita
 https://www.lifehack.org/763013/types-of-meditation-techniques <br>
 https://www.healthline.com/health/mental-health/types-of-meditation#mindfulness-meditation <br>
 https://www.medicalnewstoday.com/articles/320392#types-of-meditation
+https://www.headspace.com/meditation/daily-meditation <br>
+https://positivepsychology.com/benefits-of-meditation/ <br>
+https://www.mentalhealth.org.uk/a-to-z/m/mindfulness <br>
+https://www.nhs.uk/mental-health/self-help/tips-and-support/mindfulness/ <br>
+https://www.healthline.com/health/mental-health/types-of-meditation <br>
+https://positivepsychology.com/mindfulness-exercises-techniques-activities/ <br>
+https://en.wikipedia.org/wiki/Meditation <br>
+https://www.guysandstthomas.nhs.uk/resources/patient-information/rheumatology/mindfulness-web.pdf <br>
+https://taiji-forum.com/qigong-beginners/ 
+
 
 ### Media
 
+All images are from https://www.unsplash.com <br>
+Bird song sound on homepage is from https://freesound.org/s/532192/
+
 ### Acknowledgements
+
+https://online-audio-converter.com/ for optimising file size of bird song file <br>
+https://w3schools.com for general tips and techniques
