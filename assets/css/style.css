@@ -12,16 +12,21 @@ body {
     font-family: Montserrat, sans-serif;
 }
 
-h1, h2, h3, #nav-links, #enter-button, #copyright-notice {
+h1,
+h2,
+h3,
+#nav-links,
+#enter-button,
+#copyright-notice {
     font-family: Hind, sans-serif;
 }
 
 /*  Position and style header elements */
 
 #main-heading {
-    padding: 30px;  
+    padding: 30px;
     font-size: 80%;
-    width: fit-content;    
+    width: fit-content;
 }
 
 a {
@@ -35,23 +40,25 @@ a {
 
 #nav-links {
     padding: 30px;
-    position: absolute;
-    right: 0px;
-    top: 12.5px;   
-    width: fit-content; 
+    width: fit-content;
 }
 
-.main-color {
+/* Adjusted header layout settings following discussion with mentor */
+header {
     background-color: #57261c;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-#main-heading a:hover, #nav-links a:hover {
-    color:goldenrod;
+#main-heading a:hover,
+#nav-links a:hover {
+    color: goldenrod;
 }
 
 /* Technique to highlight active page in nav links, taken from Love Running walkthrough project */
 .active-page {
-    border-top: 2px solid goldenrod;
+    border-bottom: 2px solid goldenrod;
 }
 
 /* Set background image on homepage */
@@ -68,15 +75,15 @@ a {
     color: whitesmoke;
     width: 75%;
     border: 1px solid none;
-    background: #0f5a41;    
+    background: #0f5a41;
     margin: 15px auto;
     padding: 30px;
     border-radius: 4px;
 }
 
 #home-intro {
-    width: 50%;  
-    position: relative;     
+    width: 50%;
+    position: relative;
     top: 10%;
     margin: 0 auto;
     background: rgba(15, 90, 65, 0.8);
@@ -110,25 +117,25 @@ audio {
     position: relative;
     bottom: -45%;
     float: right;
-    margin-right: 15px;    
+    margin-right: 15px;
 }
 
 /* Style footer */
 
 footer {
     height: 100px;
+    background-color: #57261c;
 }
 
 #footer-links {
-    position: relative;
-    top: 10%;
     width: fit-content;
     margin: 0 auto;
+    padding: 10px;
 }
 
 #footer-links a {
     font-size: x-large;
-    padding: 10px;    
+    padding: 10px;
 }
 
 #footer-links a:hover {
@@ -137,10 +144,8 @@ footer {
 
 #copyright-notice {
     color: whitesmoke;
-    margin: 0 auto; 
+    margin: 0 auto;
     width: fit-content;
-    position: relative;
-    top: 30%; 
 }
 
 .light-background {
@@ -153,7 +158,7 @@ footer {
     display: inline-block;
     width: 300px;
     height: 315px;
-    overflow-x: hidden;    
+    overflow-x: hidden;
     background: #0f5a41;
     color: whitesmoke;
     font-size: smaller;
@@ -164,7 +169,7 @@ footer {
 }
 
 #info-block {
-    text-align: center;    
+    text-align: center;
 }
 
 .content-box {
@@ -190,29 +195,32 @@ footer {
     display: inline-block;
     width: 90px;
     height: 90px;
-    border: 1px solid none;     
+    border: 1px solid none;
     margin: 15px;
     border-radius: 4px;
     overflow: hidden;
 }
 
 #picture-box {
-    text-align: center;    
+    text-align: center;
 }
 
 /* Media queries for responsiveness */
 
 /* For screen sizes 600px and down */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 640px) {
     #nav-links {
-        position: relative;
         margin: 0 auto;
         padding: 15px;
     }
 
     #main-heading {
         margin: 0 auto;
-        padding: 0px;
+        padding: 10px;
+    }
+
+    header {
+        display: block;
     }
 }
