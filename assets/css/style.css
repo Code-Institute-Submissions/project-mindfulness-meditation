@@ -147,7 +147,7 @@ footer {
 
 #info-block div {
     display: inline-block;
-    width: 275px;
+    width: 300px;
     height: 315px;
     overflow-x: hidden;    
     background: #0f5a41;
@@ -178,9 +178,10 @@ footer {
     display: inline-block;
     width: 90px;
     height: 90px;
-    border: 1px solid;     
+    border: 1px solid none;     
     margin: 15px;
     border-radius: 4px;
+    overflow: hidden;
 }
 
 #picture-box {
