@@ -82,6 +82,10 @@ a {
     background: rgba(15, 90, 65, 0.8);
 }
 
+.intro-message a:hover {
+    color: goldenrod;
+}
+
 /* Style and position enter button */
 
 #enter-button {
@@ -140,7 +144,7 @@ footer {
 }
 
 .light-background {
-    background: #b97d6e;
+    background: #A8F3DA;
 }
 
 /* Technique to horizontally center inline-block, taken from https://css-tricks.com/centering-css-complete-guide/#horizontal-multiple-block */
