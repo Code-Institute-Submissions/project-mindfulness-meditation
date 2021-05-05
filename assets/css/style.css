@@ -148,7 +148,7 @@ footer {
 #info-block div {
     display: inline-block;
     width: 275px;
-    height: 150px;
+    height: 315px;
     overflow-x: hidden;    
     background: #0f5a41;
     color: whitesmoke;
@@ -172,6 +172,19 @@ footer {
     border-radius: 4px;
     color: whitesmoke;
     font-size: smaller;
+}
+
+#picture-box div {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    border: 1px solid;     
+    margin: 15px;
+    border-radius: 4px;
+}
+
+#picture-box {
+    text-align: center;    
 }
 
 /* Media queries for responsiveness */
