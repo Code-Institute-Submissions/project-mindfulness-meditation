@@ -163,7 +163,7 @@ footer {
     text-align: center;    
 }
 
-.technique-block {
+.content-box {
     width: 75%;
     margin: 10px auto;
     padding: 30px;
@@ -172,6 +172,14 @@ footer {
     border-radius: 4px;
     color: whitesmoke;
     font-size: smaller;
+}
+
+.content-box a:hover {
+    color: goldenrod;
+}
+
+.content-box li {
+    list-style-type: none;
 }
 
 #picture-box div {
