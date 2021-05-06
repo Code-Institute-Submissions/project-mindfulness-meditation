@@ -142,6 +142,7 @@ footer {
 
 #footer-links {
     width: fit-content;
+    width: -moz-fit-content;
     margin: 0 auto;
     padding: 10px;
 }
@@ -159,6 +160,7 @@ footer {
     color: whitesmoke;
     margin: 0 auto;
     width: fit-content;
+    width: -moz-fit-content;
 }
 
 .light-background {
