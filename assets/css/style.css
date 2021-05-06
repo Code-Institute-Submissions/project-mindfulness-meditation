@@ -75,21 +75,26 @@ header {
 
 /* Style intro message  */
 
+/* Adjusted styling following discussion with mentor */
 .intro-message {
     font-size: smaller;
-    color: whitesmoke;
+    color: #004128;
     width: 75%;
-    border: 1px solid none;
-    background: #0f5a41;
+    border: 1px solid transparent;
+    background: whitesmoke;
     margin: 15px auto;
     padding: 30px;
     border-radius: 4px;
+    box-shadow: 0px 1px 9px 2px grey;
+}
+
+.intro-message a {
+    color: #004128;
 }
 
 #home-intro {
     width: 50%;    
-    margin: 0 auto;
-    background: rgba(15, 90, 65, 0.8);
+    margin: 0 auto;    
 }
 
 .intro-message a:hover {
@@ -101,11 +106,16 @@ header {
 #enter-button {
     width: 60px;    
     margin: 30px auto 0;
-    border: 1px solid none;
+    border: 1px solid transparent;
     border-radius: 4px;
     padding: 5px;
     text-align: center;
-    background: rgba(87, 38, 28, 0.8);
+    background: #57261c;
+    font-size: larger;
+}
+
+#enter-button a {
+    color: whitesmoke;
 }
 
 #enter-button a:hover {
@@ -150,8 +160,9 @@ footer {
     background: #A8F3DA;
 }
 
-/* Technique to horizontally center inline-block, taken from https://css-tricks.com/centering-css-complete-guide/#horizontal-multiple-block */
+/* Styling for content boxes on techniques, benefits and contact us pages */
 
+/* Technique to horizontally center inline-block, taken from https://css-tricks.com/centering-css-complete-guide/#horizontal-multiple-block */
 #info-block div {
     display: inline-block;
     width: 300px;
@@ -205,7 +216,7 @@ footer {
 
 /* Media queries for responsiveness */
 
-/* For screen sizes 600px and down */
+/* For screen sizes 640px and down */
 
 @media screen and (max-width: 640px) {
     #nav-links {
