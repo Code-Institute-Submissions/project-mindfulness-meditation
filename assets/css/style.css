@@ -63,9 +63,14 @@ header {
 
 /* Set background image on homepage */
 
+/* Adjusted homepage element positioning following discussion with mentor */
 #home-image {
     background: #0f5a41 url(../images/garden-path-marco-de-winter-unsplash-v5.jpeg) center center no-repeat;
-    height: 1125px;
+    min-height: calc(100vh - 201px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 /* Style intro message  */
@@ -82,9 +87,7 @@ header {
 }
 
 #home-intro {
-    width: 50%;
-    position: relative;
-    top: 10%;
+    width: 50%;    
     margin: 0 auto;
     background: rgba(15, 90, 65, 0.8);
 }
@@ -96,10 +99,8 @@ header {
 /* Style and position enter button */
 
 #enter-button {
-    width: 60px;
-    position: relative;
-    top: 15%;
-    margin: 0 auto;
+    width: 60px;    
+    margin: 30px auto 0;
     border: 1px solid none;
     border-radius: 4px;
     padding: 5px;
@@ -114,10 +115,7 @@ header {
 /* Position audio element */
 
 audio {
-    position: relative;
-    bottom: -45%;
-    float: right;
-    margin-right: 15px;
+    margin: 30px;
 }
 
 /* Style footer */
