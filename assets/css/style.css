@@ -233,6 +233,12 @@ footer {
     text-align: center;
 }
 
+/* Correct issue with page height on benefits page */
+
+#height-adjust {
+    min-height: calc(100vh - 201px);
+}
+
 /* Media queries for responsiveness */
 
 /* For screen sizes 640px and down */
