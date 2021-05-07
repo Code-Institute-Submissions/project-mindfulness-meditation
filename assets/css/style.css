@@ -243,11 +243,13 @@ footer {
     border: 1px solid #004128;
     margin: 5px 0; 
     width: 25%;
+    height: 20px;
 }
 
 #comments {
     resize: none;            
     width: 50%;
+    height: 100%;
 }
 
 #submit-button:hover {
@@ -287,6 +289,18 @@ footer {
 
     header {
         display: block;
+    }
+}
+
+/* For screens 800px and down */
+
+@media screen and (max-width: 800px) {
+    .text-input {
+        width: 60%;
+    }
+
+    #comments {
+        width: 80%;
     }
 }
 
