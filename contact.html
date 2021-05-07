@@ -7,11 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Meditation Newbie website, providing meditation and mindfulness information">
     <meta name="keywords" content="meditation, mindfulness, calm, reduce stress">
-    <title>Home | Meditation Newbie</title>
+    <title>Contact Us | Meditation Newbie</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body>
+<body class="light-background">
     <header>
         <div id="main-heading">
             <a href="index.html">
@@ -20,31 +20,26 @@
         </div>
         <div id="nav-links">
             <nav>
-                <a href="index.html" class="active-page">Home</a>
+                <a href="index.html">Home</a>
                 <a href="techniques.html">Techniques</a>
                 <a href="benefits.html">Benefits</a>
-                <a href="contact.html">Contact Us</a>
+                <a href="contact.html" class="active-page">Contact Us</a>
             </nav>
         </div>
     </header>
-    <section>
-        <div id="home-image">
-            <!-- technique to assign alt text for background image, taken from https://www.davidmacd.com/blog/alternate-text-for-css-background-images.html -->
-            <span role="img" aria-label="Image of path leading into a garden"></span>
-            <div class="intro-message" id="home-intro">
-                <h2>Welcome!</h2>
-                <p>Are you looking to learn more about mindfulness and meditation but not sure where to start? This
-                    website is a gentle introduction to these concepts and includes some techniques to try as well as
-                    some potential benefits. Click on Enter below to begin.</p>
-                <div id="enter-button">
-                    <a href="techniques.html"><strong>Enter</strong></a>
-                </div>
+    <section id="height-adjust">
+        <!-- Intro section -->
+        <div class="intro-message">
+            <h2>Get in touch</h2>
+            <p>Have any queries or feedback? Send these to us via the below form:</p>            
+        </div>        
+        <!-- Container for picture box -->
+        <div id="picture-box">
+            <div><img src="assets/images/daisy-flower-marissa-daeger.jpg" alt="Image of daisy flower"></div>
+            <div><img src="assets/images/light-purple-flower-karl-heinz-muller.jpg" alt="Image of light purple flower">
             </div>
-            <audio src="assets/audio/532192-mcmikai-birds-chirping-in-spring-season.mp3" muted loop autoplay controls
-                aria-label="Audio file of bird song">
-                <p>Your browser doesn't support HTML5 audio</p>
-                <a href="assets/audio/532192-mcmikai-birds-chirping-in-spring-season.mp3">Link to audio file</a>
-            </audio>
+            <div><img src="assets/images/red-flower-mana5280.jpg" alt="Image of red flower">
+            </div>
         </div>
     </section>
     <footer>
