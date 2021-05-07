@@ -242,10 +242,12 @@ footer {
     background: whitesmoke;
     border: 1px solid #004128;
     margin: 5px 0; 
+    width: 25%;
 }
 
 #comments {
     resize: none;            
+    width: 50%;
 }
 
 #submit-button:hover {
@@ -260,6 +262,15 @@ footer {
 }
 
 /* Media queries for responsiveness */
+
+/* For very small screens 360px and down */
+
+@media screen and (max-width: 360px) {
+    #info-block div {
+        width: 75%;
+        height: fit-content;
+    }
+}
 
 /* For screen sizes 640px and down */
 
