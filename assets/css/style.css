@@ -21,7 +21,7 @@ h3,
     font-family: Hind, sans-serif;
 }
 
-p {
+p, li {
     line-height: 1.3;
 }
 
@@ -69,7 +69,7 @@ header {
 
 /* Adjusted homepage element positioning following discussion with mentor */
 #home-image {
-    background: #0f5a41 url(../images/garden-path-marco-de-winter-unsplash-v5.jpeg) center center no-repeat;
+    background: #0f5a41 url(../images/garden-path-marco-de-winter.jpeg) center center no-repeat;
     min-height: calc(100vh - 201px);
     display: flex;
     align-items: center;
@@ -217,8 +217,8 @@ footer {
 
 #picture-box div {
     display: inline-block;
-    width: 90px;
-    height: 90px;
+    width: 200px;
+    height: 200px;
     border: 1px solid transparent;
     margin: 15px;
     border-radius: 4px;
