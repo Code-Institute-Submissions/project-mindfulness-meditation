@@ -31,7 +31,19 @@
         <!-- Intro section -->
         <div class="intro-message">
             <h2>Get in touch</h2>
-            <p>Have any queries or feedback? Send these to us via the below form:</p>            
+            <p>Have any queries or feedback? Send these to us via the below form:</p>
+            <br>
+            <form action="#">
+                <label for="fname"><strong>First Name</strong></label>
+                <input class="text-input" type="text" id="fname" name="f_name" required>
+                <label for="lname"><strong>Last Name</strong></label>
+                <input class="text-input" type="text" id="lname" name="l_name" required>
+                <label for="email"><strong>Email Address</strong></label>
+                <input class="text-input" type="email" id="email" name="email_add" required>
+                <label for="comments"><strong>Comments</strong></label>
+                <textarea name="comments" id="comments" cols="30" rows="10" required></textarea>
+                <input type="submit" id="submit-button">              
+            </form>            
         </div>        
         <!-- Container for picture box -->
         <div id="picture-box">
