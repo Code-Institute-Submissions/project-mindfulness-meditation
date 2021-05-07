@@ -16,7 +16,7 @@ h1,
 h2,
 h3,
 #nav-links,
-#enter-button,
+.input-button,
 #copyright-notice {
     font-family: Hind, sans-serif;
 }
@@ -111,7 +111,7 @@ header {
 
 /* Style and position enter button */
 
-#enter-button {
+.input-button {
     width: 60px;    
     margin: 30px auto 0;
     border: 1px solid transparent;
@@ -119,15 +119,16 @@ header {
     padding: 5px;
     text-align: center;
     background: #57261c;
+    color: whitesmoke;
     font-size: larger;
     box-shadow: 0px 1px 9px 2px grey;
 }
 
-#enter-button a {
+.input-button a {
     color: whitesmoke;
 }
 
-#enter-button a:hover {
+.input-button a:hover {
     color: goldenrod;
 }
 
@@ -227,10 +228,29 @@ footer {
     margin: 15px;
     border-radius: 4px;
     overflow: hidden;
+    box-shadow: 0px 1px 9px 2px grey;
 }
 
 #picture-box {
     text-align: center;
+}
+
+/* Style form elements */
+
+.text-input {
+    display: block;
+    background: whitesmoke;
+    border: 1px solid #004128;
+    margin: 5px 0; 
+}
+
+#comments {
+    resize: none;            
+}
+
+#submit-button:hover {
+    background: #57261c;
+    color: goldenrod;
 }
 
 /* Correct issue with page height on benefits page */
