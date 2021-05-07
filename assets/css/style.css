@@ -96,6 +96,10 @@ header {
     color: #004128;
 }
 
+.intro-message li {
+    list-style-type: none;
+}
+
 #home-intro {
     width: 50%;    
     margin: 0 auto;    
