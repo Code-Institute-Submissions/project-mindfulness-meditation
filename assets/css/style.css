@@ -252,6 +252,10 @@ footer {
     height: 100%;
 }
 
+.text-input:hover {
+    border-color: goldenrod;
+}
+
 #submit-button:hover {
     background: #57261c;
     color: goldenrod;
