@@ -4,6 +4,8 @@ My website is designed to be a gentle introduction to mindfulness and meditation
 
 ![Image of site pages on different screen sizes](https://raw.githubusercontent.com/domsq/project-mindfulness-meditation/master/screenshots/am-i-responsive.JPG)
 
+[Link to deployed site](https://domsq.github.io/project-mindfulness-meditation/index.html)
+
 ## UX
 
 As noted in my introduction, I'm aiming my website at users who are perhaps new to the concepts of mindfulness and meditation and who are looking for advice on what they are, techniques to try and some of the known benefits to performing mindfulness and meditation exercises. I will also provide some links to further reading and suggested apps. The colour scheme used is dark brown for the header, footer and input button backgrounds with light coloured text. The rest of the website uses a pale green grey background, with an off-white for the text box backgrounds and also very dark green coloured text. These colours convey a natural theme and tie up with the homepage background image, the video on the techniques page and the flower images at the bottom of the techniques, benefits, contact us and confirmation pages. See below the wireframes for the home, techniques, benefits and contact us pages:
@@ -71,9 +73,49 @@ I would look to expand on the techniques as well as maybe provide instructional 
 HTML <br>
 CSS <br>
 Font Awesome <br>
-Google Fonts
+Google Fonts<br>
+Gitpod<br>
+GitHub<br>
+GitHub Pages<br>
 
 ## Testing
+
+- As a user, I'm looking to find out more about the concepts of mindfulness and meditation.<br><br>
+The user will land on the homepage when accessing the website. They then either click on the "Enter" button or click on the "Techniques" link in the navigation bar to be taken to the Techniques page. The upper part of the Techniques page has information on the concepts of mindfulness vs. meditation and also the difference between guided and unguided meditation.<br><br>
+- As a user, I'm wanting to read about some mindfulness and meditation techniques that I can try.<br><br>
+From the homepage, the user either clicks on the "Enter" button or the "Techniques" link in the navigation bar. This will take them to the Techniques page which has some techniques a bit further down the page for them to try.<br><br>
+- As a user, I would like to find out more about some of the benefits to performing mindfulness and meditation exercises.<br><br>
+From the homepage, the user clicks on the "Benefits" link in the navigation bar. This takes them to the Benefits page, which details some of the known benefits to performing regular mindfulness and meditation as well as links to the related studies for this.<br><br>
+- As a user, I'd like to discover whether mindfulness and meditation can help with reducing stress and anxiety.<br><br>
+From the homepage, the user clicks on the "Benefits" link in the navigation bar. This takes them to the Benefits page, which details that some of the known benefits to performing regular mindfulness and meditation include reduced stress and anxiety.<br><br>
+The website has been tested using the following browsers:<br>
+Google Chrome<br>
+Microsoft Edge<br>
+Mozilla Firefox<br><br>
+Within Chrome and Edge, the following breakpoints were checked using responsive mode:<br>
+Mobile S - 320px<br>
+Mobile M - 375px<br>
+Mobile L - 425px<br>
+Tablet - 768px<br>
+Laptop - 1024px<br>
+Laptop L - 1440px<br><br>
+As well as the following emulated devices:<br>
+iPhone 5/SE<br>
+iPhone 6/7/8<br>
+iPhone 6/7/8 Plus<br>
+iPhone X<br>
+iPad<br>
+iPad Pro<br><br>
+In Firefox, the following emulated device sizes were checked:<br>
+Galaxy S9/S9+ Android 7.0<br>
+iPad<br>
+iPhone 6/7/8 iOS 11<br>
+iPhone 6/7/8 Plus iOS 11<br>
+iPhone X/XS iOS 12<br>
+Kindle Fire HDX Linux
+
+The website was also checked at full width on a 1080p and 4K screen. It was also tested on an Oppo Find X2 Lite and Samsung Galaxy S20 FE 5G handsets. Media queries were added where necessary to maintain site viewability.<br>
+The website has been optimised for 1080p and smaller screens but works fine on a 4K monitor.  
 
 ## Deployment
 
