@@ -285,6 +285,10 @@ video {
         width: 75%;
         height: fit-content;
     }
+
+    #nav-links a {
+        font-size: 0.9rem;
+    }
 }
 
 /* For screen sizes 640px and down */
