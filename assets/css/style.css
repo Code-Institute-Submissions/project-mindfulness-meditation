@@ -107,7 +107,7 @@ header {
 }
 
 .intro-message a:hover {
-    color: goldenrod;
+    color: #57261c;
 }
 
 /* Style and position enter button */
@@ -227,7 +227,7 @@ video {
 }
 
 .content-box a:hover {
-    color: goldenrod;
+    color: #57261c;
 }
 
 .content-box li {
