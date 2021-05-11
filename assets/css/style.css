@@ -85,12 +85,9 @@ header {
     text-align: center;
     color: #004128;
     width: 66%;
-    border: 1px solid transparent;
     background: whitesmoke;
     margin: 15px auto;
     padding: 30px;
-    border-radius: 4px;
-    box-shadow: 0px 1px 9px 2px grey;
 }
 
 .intro-message a {
@@ -110,19 +107,23 @@ header {
     color: #57261c;
 }
 
+/* Adjusted border styling following discussion with mentor */
+.border-styling {
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-shadow: 0px 1px 9px 2px grey;
+}
+
 /* Style and position enter button */
 
 .input-button {
     width: 60px;
     margin: 30px auto 0;
-    border: 1px solid transparent;
-    border-radius: 4px;
     padding: 5px;
     text-align: center;
     background: #57261c;
     color: whitesmoke;
     font-size: larger;
-    box-shadow: 0px 1px 9px 2px grey;
 }
 
 .input-button a {
@@ -186,10 +187,7 @@ footer {
     color: #004128;
     font-size: smaller;
     margin: 10px;
-    border: 1px solid transparent;
-    border-radius: 4px;
     padding: 30px;
-    box-shadow: 0px 1px 9px 2px grey;
 }
 
 #info-block {
@@ -199,9 +197,6 @@ footer {
 video {
     margin: 10px auto;
     display: block;
-    border: 1px solid transparent;
-    border-radius: 4px;
-    box-shadow: 0px 1px 9px 2px grey;
 }
 
 #techniques-intro {
@@ -213,13 +208,10 @@ video {
     width: 66%;
     margin: 20px auto;
     padding: 30px;
-    border: 1px solid transparent;
     background: whitesmoke;
-    border-radius: 4px;
     color: #004128;
     font-size: smaller;
     text-align: center;
-    box-shadow: 0px 1px 9px 2px grey;
 }
 
 .content-box a {
@@ -238,11 +230,8 @@ video {
     display: inline-block;
     width: 200px;
     height: 200px;
-    border: 1px solid transparent;
     margin: 15px;
-    border-radius: 4px;
     overflow: hidden;
-    box-shadow: 0px 1px 9px 2px grey;
 }
 
 #picture-box {
