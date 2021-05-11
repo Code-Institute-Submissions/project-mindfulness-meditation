@@ -361,3 +361,11 @@ video {
         height: 180px;
     }
 }
+
+/* For iPad Pro in portrait orientation */
+
+@media screen and (width: 1024px) and (height: 1366px) {
+    #home-image {
+      background-size: 220%;
+  }
+}
