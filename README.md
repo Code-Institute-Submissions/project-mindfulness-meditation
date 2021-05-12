@@ -45,11 +45,11 @@ The website features a navigation bar, that is present on all pages. This allows
 
 ![Image of navigation bar](https://raw.githubusercontent.com/domsq/project-mindfulness-meditation/master/screenshots/navbar.JPG)
 
-It has a homepage with welcoming image and message, as well as sound of birdsong that starts muted and the user can turn on the sound if desired:
+It has a homepage with welcoming image and message, as well as a sound of birdsong that starts muted and the user can turn on the sound if desired:
 
 ![Homepage of site](https://raw.githubusercontent.com/domsq/project-mindfulness-meditation/master/screenshots/homepage.JPG)
 
-There is also a footer containing links to our social media pages, should users want to follow us on any of Facebook, Instagram, Twitter or YouTube:
+There is also a footer containing links to social media pages, should users want to follow us on any of Facebook, Instagram, Twitter or YouTube:
 
 ![Image of footer](https://raw.githubusercontent.com/domsq/project-mindfulness-meditation/master/screenshots/footer.JPG)
 
