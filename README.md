@@ -93,11 +93,11 @@ The user will land on the homepage when accessing the website. They then either 
 From the homepage, the user either clicks on the "Enter" button or the "Techniques" link in the navigation bar. This will take them to the Techniques page which has some techniques a bit further down the page for them to try:<br>
 ![Second image of techniques page](https://raw.githubusercontent.com/domsq/project-mindfulness-meditation/master/screenshots/techniques-2.JPG)
 - As a user, I would like to find out more about some of the benefits to performing mindfulness and meditation exercises.<br><br>
-From the homepage, the user clicks on the "Benefits" link in the navigation bar. This takes them to the Benefits page, which details some of the known benefits to performing regular mindfulness and meditation as well as links to the related studies for this:<br>
+From the homepage, the user clicks on the "Benefits" link in the navigation bar. This takes them to the Benefits page, which details some of the known benefits to performing regular mindfulness and meditation exercises as well as links to the related studies for this:<br>
 ![Image of benefits page](https://raw.githubusercontent.com/domsq/project-mindfulness-meditation/master/screenshots/benefits-page.JPG)
 - As a user, I'd like to discover whether mindfulness and meditation can help with reducing stress and anxiety.<br><br>
 From the homepage, the user clicks on the "Benefits" link in the navigation bar. This takes them to the Benefits page, which details that some of the known benefits to performing regular mindfulness and meditation include reduced stress and anxiety:<br>
-![Image of benefits page](https://raw.githubusercontent.com/domsq/project-mindfulness-meditation/master/screenshots/benefits-page.JPG)<br>
+![Image of benefits page](https://raw.githubusercontent.com/domsq/project-mindfulness-meditation/master/screenshots/benefits-page.JPG)<br><br>
 The website has been tested using the following browsers:<br>
 - Google Chrome<br>
 - Microsoft Edge<br>
@@ -133,12 +133,12 @@ While developing my website, I encountered the following bugs which were either 
 - Homepage image didn't display as expected on screens above 2100px wide or on the emulated iPad Pro size in portrait orientation.<br>
 - Footer didn't display correctly when viewed in the Firefox browser.<br>
 - The benefits page had a gap below the footer initially.<br>
-- The header element with navigation links didn't display correctly when viewed in the Firefox browser.<br><br>
+- The header element with navigation links didn't display correctly when viewed in the Firefox browser at smaller screen widths.<br><br>
 As noted, these bugs have since been corrected.<br>
 ### Validator Testing
 
 - HTML
-    - No errors returned when tested using the official W3C validator:
+    - No errors or warnings returned when tested using the official W3C validator:
     - [Check of homepage](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fdomsq.github.io%2Fproject-mindfulness-meditation%2Findex.html)
     - [Check of techniques page](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fdomsq.github.io%2Fproject-mindfulness-meditation%2Ftechniques.html)
     - [Check of benefits page](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fdomsq.github.io%2Fproject-mindfulness-meditation%2Fbenefits.html)
@@ -147,10 +147,19 @@ As noted, these bugs have since been corrected.<br>
 - CSS
     - No errors but 3 warnings when tested using the official Jigsaw validator:
     ![Image of Jigsaw validation](https://raw.githubusercontent.com/domsq/project-mindfulness-meditation/master/screenshots/jigsaw-check-result.JPG)<br>
-    ![Image of Jigsaw warnings](https://raw.githubusercontent.com/domsq/project-mindfulness-meditation/master/screenshots/jigsaw-warnings.JPG)
+    ![Image of Jigsaw warnings](https://raw.githubusercontent.com/domsq/project-mindfulness-meditation/master/screenshots/jigsaw-warnings.JPG)<br>
     The first warning is simply stating it couldn't check an import link due to the vaidation method being direct input. The remaining 2x warnings are due to a style property I needed to add to make the footer display correctly in the Firefox browser.
 
 ## Deployment
+
+My website was deployed via GitHub Pages as follows:
+- Browse to https://github.com and login
+- Navigate to the required repository (in this case, project-mindfulness-meditation)
+- Click on the "Settings" button (has a gear icon to the left of it)
+- Click on "Pages"
+- Under "Source", click the dropdown for "Branch" select "master" and then "Save"
+- After a brief period, a message appears at the top to state "Your site is published at..."
+
 
 ## Credits 
 
@@ -165,6 +174,7 @@ https://www.healthline.com/health/mental-health/types-of-meditation#mindfulness-
 https://www.medicalnewstoday.com/articles/320392#types-of-meditation
 https://www.headspace.com/meditation/daily-meditation <br>
 https://positivepsychology.com/benefits-of-meditation/ <br>
+https://www.headspace.com/meditation/daily-meditation <br>
 https://www.mentalhealth.org.uk/a-to-z/m/mindfulness <br>
 https://www.nhs.uk/mental-health/self-help/tips-and-support/mindfulness/ <br>
 https://www.healthline.com/health/mental-health/types-of-meditation <br>
@@ -175,10 +185,28 @@ https://taiji-forum.com/qigong-beginners/
 
 ### Media
 
-All images are from https://www.unsplash.com <br>
-Bird song sound on homepage is from https://freesound.org/s/532192/
+All images are from [Unsplash](https://www.unsplash.com) and in particular by the following photographers:<br>
+[Gabriel Manlake](https://unsplash.com/@osomax?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)<br>
+[Niconor Brown](https://unsplash.com/@nick876?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)<br>
+[Marissa Daeger](https://unsplash.com/@marissadaeger?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)<br>
+[Tra Tran](https://unsplash.com/@tratran?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)<br>
+[Mariam Djabari](https://unsplash.com/@mariam_dbr?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)<br>
+[Marco de Winter](https://unsplash.com/@marcodewinter?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)<br>
+[Karl-Heinz Müller](https://unsplash.com/@khmuller?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)<br>
+[Anton Bozhina](https://unsplash.com/@anton_bozhina?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)<br>
+[Ivan Moncada](https://unsplash.com/@ivamoncadar?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)<br>
+[Frank Busch](https://unsplash.com/@frankbusch?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)<br>
+[mana5280](https://unsplash.com/@mana5280?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)<br>
+[Revieshan](https://unsplash.com/@revieshan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)<br>
+[Angelika Paduch](https://unsplash.com/@andziax?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)<br><br>
+Bird song sound on homepage is from https://freesound.org/s/532192/<br>
+Video of flowing river is from https://www.pexels.com/video/wide-angle-shot-of-a-flowing-river-6928458/<br>
 
 ### Acknowledgements
 
 https://online-audio-converter.com/ for optimising file size of bird song file <br>
-https://w3schools.com for general tips and techniques
+https://w3schools.com for general tips and techniques<br>
+https://clideo.com/ for optimising the size of the video file <br>
+https://tinypng.com/ for optimising the size of image files <br>
+The Love Running Walkthrough project for guidance<br>
+My mentor for his helpful feedback and advice<br>
